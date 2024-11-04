@@ -16,4 +16,5 @@ pip-selfcheck.json
 venv
 
 repo-utils
+pypi.sh 
 
