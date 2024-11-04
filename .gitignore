@@ -11,3 +11,9 @@ pip-selfcheck.json
 .tox
 
 /.cache/
+
+.venv
+venv
+
+repo-utils
+

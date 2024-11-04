@@ -10,8 +10,8 @@ tests_require = [
 ]
 
 setup(
-    name='docxcompose',
-    version='1.4.1.dev0',
+    name='docxcompose2',
+    version='1.4.2',
     description="Compose .docx documents",
     long_description=(open("README.rst").read() + "\n" +
                       open("HISTORY.txt").read()),
@@ -23,17 +23,17 @@ setup(
         "Operating System :: OS Independent",
         "License :: OSI Approved :: MIT License",
     ],
-    keywords='Python DOCX Word OOXML',
-    author='Thomas Buchberger',
-    author_email='t.buchberger@4teamwork.ch',
-    url='https://github.com/4teamwork/docxcompose',
+    keywords='Python DOCX Word OOXML (with bayoo-docx dependency)',
+    author='PasaOpasen',
+    author_email='qtckpuhdsa@gmail.com',
+    url='https://github.com/PasaOpasen/docxcompose2',
     license='MIT license',
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
     zip_safe=True,
     install_requires=[
         'lxml',
-        'python-docx >= 0.8.8',
+        'bayoo-docx >= 0.2.20',
         'setuptools',
         'six',
         'babel',
